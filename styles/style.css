@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+Ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 38px;
+}
+
+.header-nav-link {
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.header-nav-list {
+   color: grey;
+   font-size: 18px;
+   line-height: 21px;
+}
+
+.main-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 33px;
+}
+
+.main-left {
+    width: 730px;
+    background: #F0F0F0;
+    padding: 50px 95px 51px 40px;
+}
+
+.main-right {
+    width: 350px;
+    background: #F0F0F0;
+    padding: 50px 24px 0 40px;
+}
+
+.main-left-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    color: #4581b7;
+    margin-bottom: 25px;
+}
+
+.main-left-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #808080;
+}
+
+.main-right-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    color: #4581b7;  
+    margin-bottom: 25px;
+}
+
+.main-right-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #808080;
+}
+
+.main-right-number,
+ .main-right-gmail {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #808080;
+    display: block;
+    margin-top: 40px;
+}
+
+.footer-box {
+    width: 1112px;
+    height: 150px;
+    background: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.footer-right-text {
+    font-family: 'Rpbptp';
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+}
+
+.footer-right-number{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 25px;
+    color: #808080;
+}
+
+@media (max-width: 1140px) {
+    .main-box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-img-main {
+       height: 300px;
+    }
+}
